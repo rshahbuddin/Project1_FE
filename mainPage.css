@@ -1,0 +1,40 @@
+@import "./blogPost1.css";
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  justify-content: center;
+  border: 2px solid purple;
+  padding: 2px;
+  margin: 10px;
+  background-color: lavender;
+  font-family: "Arial", "Cambria", "Times New Roman";
+  font-size: 16px;
+}
+
+/* .posts {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: lightblue;
+  border: 1px solid blue;
+} */
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .posts {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 901px) {
+  .posts {
+    font-size: 27px;
+  }
+}

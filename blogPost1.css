@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Arial", "Cambria", "Times New Roman";
+  background-color: lightpink;
+  color: darkred;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 901px) {
+  .container {
+    font-size: 27px;
+  }
+}
